@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background: #334155;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+a:hover {
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #1e293b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background: #334155;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #334155;
+}
+
+tr:hover {
+    background: #293548;
+}
+
+td a {
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+td a[href*="edit"] {
+    background: #f59e0b;
+}
+
+td a[href*="edit"]:hover {
+    background: #d97706;
+}
+
+td a[href*="remove"] {
+    background: #ef4444;
+}
+
+td a[href*="remove"]:hover {
+    background: #b91c1c;
+}
+
+a[href*="add"] {
+    background: #22c55e;
+}
+
+a[href*="add"]:hover {
+    background: #16a34a;
+}
+
+a[href*="logout"] {
+    background: #64748b;
+}
+
+a[href*="logout"]:hover {
+    background: #475569;
+}

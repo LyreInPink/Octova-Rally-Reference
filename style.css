@@ -1,0 +1,150 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #ffa6ca;
+}
+
+.container{
+  width:900px;
+  height:500px;
+  background:white;
+  border-radius:30px;
+  overflow:hidden;
+  display:flex;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.left{
+  width:50%;
+  background-image: url('https://i.pinimg.com/736x/b8/0f/1f/b80f1fc3b5e90e74481a37d2b6be83b0.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color:white;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between; 
+  padding:40px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.logo-container,
+.left-content {
+  position: relative;
+  z-index: 2;
+}
+
+.logo-container {
+  align-self: flex-start;
+}
+
+.logo-img {
+  max-height: 40px; 
+  width: auto;
+  object-fit: contain;
+}
+
+.left-content {
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h1{
+  font-size:45px;
+  margin-bottom:20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.left p{
+  font-size:16px;
+  opacity: 0.9;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.right{
+  width:50%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:white;
+}
+
+.login-box{
+  width:75%;
+}
+
+.login-box h2{
+  text-align:center;
+  margin-bottom:35px;
+  color:#ffa6ca;
+  font-size:30px;
+  font-weight: bold;
+}
+
+.input-box{
+  margin-bottom:20px;
+}
+
+.input-box input{
+  width:100%;
+  padding:15px 24px;
+  border: none;
+  border-radius:999px;
+  background:#f1f1f1; 
+  outline:none;
+  font-size:16px;
+  transition: all 0.3s ease;
+}
+
+.input-box input:focus{
+  background:#ffe5f0; 
+  border: 1px solid #ffa6ca;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 999px;
+  background: #ffa6ca;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-login:hover {
+  background: #ff92be;
+}
+
+.register{
+  margin-top:20px;
+  text-align:center;
+}
+
+.register a{
+  color:#ffa6ca;
+  text-decoration:none;
+  font-weight:bold;
+  font-size: 14px;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}
